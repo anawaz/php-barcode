@@ -7,8 +7,8 @@
  *	  www.rocketwood.com
  *  Date:	05/25/2003
  *  Usage:
- *      <img src="/barcode.php?text=testing" alt="testing" />
- *      $barcode = new Barcode($text, $size, $orientation, $code_stype, $code_string);
+ *      <img src="/index.php?code=testing" alt="testing" /> OR just http://folder.com/?code=12453
+ * Produces code128 barcode by default. Change controller for other options. Removed codabar as it threw warnings.
  */
 
 class BarcodeGenerator {
