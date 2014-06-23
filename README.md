@@ -14,7 +14,9 @@ Usage:
 ```
 <img src="/index.php?code=VESICA" alt="testing" />
 ```
- or simply index.php?code=VESICA
+or simply index.php?code=VESICA
+ 
+This will look like <img src="http://vesica.ws/tools/barcoder/?code=VESICA" alt="Vesica barcode" />
 
 There is a running demo on http://vesica.ws/tools/barcoder/?code=VESICA
 
