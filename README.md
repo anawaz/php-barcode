@@ -5,9 +5,9 @@ php-barcode
 NEW README TEXT
 ==========
 NEW STUFF:
-  * I've stripped out the Codabar format. It threw some exceptions which I did not have the time to debug.
-  * I've amended the script to automatically add the barcode number to the image too.
-  * I've put the script into a class (for those who prefer OO)
+  * I've stripped out the Codabar format. It threw some exceptions and I did not get around to debugging them.
+  * I've amended the script to automatically add the barcode number to the image.
+  * I've put the script into a class
 
 Usage: 
 
