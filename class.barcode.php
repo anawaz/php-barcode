@@ -3,25 +3,55 @@
 /*
  *  Author:  David S. Tufts
  *  Edited by Asif Nawaz to make OO to use outside URL
- *  Company: Rocketwood.LLC
- *	  www.rocketwood.com
- *  Date:	05/25/2003
+ *  Company: Rocketwood.LLC, Vesica Ltd
+ *	  www.rocketwood.com, http://vesica.ws
+ *  Date:	05/25/2003, June 19, 2014
  *  Usage:
  *      <img src="/index.php?code=testing" alt="testing" /> OR just http://folder.com/?code=12453
- * Produces code128 barcode by default. Change controller for other options. Removed codabar as it threw warnings.
+ * Produces code128 barcode by default. Change controller (index.php) for other options. Removed codabar as it threw warnings.
  */
 
 class BarcodeGenerator {
-    
+
+    /**
+     * Your barcod number
+     * @var string 
+     */
     public $text;
+
+    /**
+     * The width or height of the barcode
+     * @var integer
+     */
     public $size;
+
+    /**
+     * Orientation - self explanatory, really.
+     * @var string 'horizontal'or 'vertical'
+     */
     public $orientation;
+
+    /**
+     * Barcode format
+     * @var string Accepts 3 options: the 3 constants below. 
+     */
     public $code_type;
-    public $code_string = '';
     
+    /**
+     * The actual code used to generate the image.
+     * @var string 
+     */
+    public $code_string;
+
+    /**
+     * The two acceptable orientations.
+     */
     const ORIENTATION_HORIZONTAL = 'horizontal';
     const ORIENTATION_VERTICAL = 'vertical';
-    
+
+    /**
+     * The 3 barcode formats. Time permitting, I will add ISBN and UPC to this.
+     */
     const CODE_128 = 'code128';
     const CODE_39 = 'code39';
     const CODE_25 = 'code25';
