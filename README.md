@@ -9,11 +9,16 @@ NEW STUFF:
   * I've amended the script to automatically add the barcode number to the image too.
   * I've put the script into a class (for those who prefer OO)
 
-Usage: <img src="/index.php?code=VESICA" alt="testing" /> or simply index.php?code=VESICA
+Usage: 
+
+```
+<img src="/index.php?code=VESICA" alt="testing" />
+```
+ or simply index.php?code=VESICA
 
 There is a running demo on http://vesica.ws/tools/barcoder/?code=VESICA
 
-The tool is freely available for public use.
+The tool on vesica.ws is freely available for public use.
 
 ORIGINAL README TEXT
 ========== 
