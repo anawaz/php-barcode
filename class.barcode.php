@@ -14,7 +14,7 @@
 class BarcodeGenerator {
 
     /**
-     * Your barcod number
+     * Your barcode number
      * @var string 
      */
     public $text;
