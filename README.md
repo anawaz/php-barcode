@@ -18,7 +18,7 @@ or simply index.php?code=VESICA
  
 This will look like <img src="https://app.vesica.ws/tools/barcoder/?code=VESICA" alt="Vesica barcode" />
 
-There is a running demo on http://vesica.ws/tools/barcoder/?code=VESICA
+There is a running demo on https://app.vesica.ws/tools/barcoder/?code=VESICA
 
 The tool on vesica.ws is freely available for public use.
 
