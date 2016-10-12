@@ -16,9 +16,9 @@ Usage:
 ```
 or simply index.php?code=VESICA
  
-This will look like <img src="https://app.vesica.ws/tools/barcoder/?code=VESICA" alt="Vesica barcode" />
+This will look like <img src="http://barcode.meezaan.net/?code=The%20happiness%20of%20the%20drop%20is%20to%20die%20in%20the%20river" alt="The happiness of the drop is to die in the river" />
 
-There is a running demo on https://app.vesica.ws/tools/barcoder/?code=VESICA
+There is a running demo on http://barcode.meezaan.net/?code=The%20happiness%20of%20the%20drop%20is%20to%20die%20in%20the%20river
 
 The tool on vesica.ws is freely available for public use.
 
